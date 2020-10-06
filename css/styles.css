@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+a, button{
+    transition: all .3s ease-in-out;
+}
+
+body{
+   /* font :400 22px 'Popins', sans-serif;*/
+    font-family: 'Popins', sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.conteiner{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+.box{
+    padding: 90px 0;
+}
+
+.box--padding-lg{
+    padding: 90px 0;
+
+}
+.box--bg-pink{
+    background-color: #ffe9eb;
+}
+
+.box--bg-gtay{
+    background-color: #eeeeee;
+}
+
+ .box--bg-gradient{
+        background-image: linear-gradient(to bottom,#333399 40%, #fe00cc);
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size:36px ;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+
+    h5{
+        font-size: 24px ;
+    }
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: rgb(165, 63, 63);
+        
+    }
+    header a {
+    color: inherit;
+    }
+
+    .logo{
+        font-weight: 700;
+        font-size: 33px;
+    }
+    .logo:hover,
+    .logo:focus,
+    .logo:active{
+        color: #e71cb4;
+    }
+
+    nav li{
+        padding: 0;
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+        
+    nav ul li a{
+        padding:0;
+        font-size: 16px;
+        font-weight: 700;
+        border-bottom: 1px solid transparent;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus,
+    nav ul li a:activ{
+        color:#e71cb4;
+        border-color: #e71cb4;
+    }
+
+    header .conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero{
+        min-height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:#fff;
+        background-position: center;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        background-image: url(/img/hero.jpg );
+
+    }
+
+    .hero__title{
+        margin-bottom: 30px;
+    }
+    .hero__text{
+        font-style: 30px;
+        margin-bottom: 70px;
+    }
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #e71cb4;
+    border: 2px solid #e71cb4;
+    border-radius: 5px;
+    padding:20px 100px;
+    display: inline-block;
+    
+
+}
+
+.btn--lg{
+font-style: 22px;
+padding:15px 80px;
+}
+
+btn:hover,
+btn:focus,
+btn:active{
+    color:#e71cb4;
+    background-color: #fff;   
+}
+
+.btn--transporent{
+    background-color: transparent;
+    color:#fff;
+
+}
+
+btn--transporent:hover,
+btn--transporent:focus,
+btn--transporent:active{
+    color:#444;
+}
+.text-purple{
+color: #e71cb4;
+}
+.text-lg{
+    font-style: 32px;
+}
