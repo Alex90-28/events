@@ -21,7 +21,6 @@ body{
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
-    
 }
 
 .box{
@@ -42,6 +41,7 @@ body{
 
  .box--bg-gradient{
         background-image: linear-gradient(to bottom,#333399 40%, #fe00cc);
+        color: #fff
     }
 
     h1{
@@ -49,7 +49,7 @@ body{
     }
 
     h2{
-        font-size: 30px;
+        font-size: 62px;
     }
 
     h3{
@@ -147,8 +147,7 @@ body{
     border-radius: 5px;
     padding:20px 100px;
     display: inline-block;
-    
-
+    text-decoration: none;
 }
 
 .btn--lg{
@@ -156,9 +155,9 @@ font-style: 22px;
 padding:15px 80px;
 }
 
-btn:hover,
-btn:focus,
-btn:active{
+.btn:hover,
+.btn:focus,
+.btn:active{
     color:#e71cb4;
     background-color: #fff;   
 }
@@ -169,14 +168,10 @@ btn:active{
 
 }
 
-btn--transporent:hover,
-btn--transporent:focus,
-btn--transporent:active{
-    color:#444;
-}
 .text-purple{
 color: #e71cb4;
 }
+
 .text-lg{
     font-style: 32px;
 }
@@ -194,8 +189,14 @@ color: #e71cb4;
     font-size: 44px;
     font-weight: 700;
     display: inline-block;
-    margin: 0 25px;
+    padding: 0 25px;
     line-height: 1.2;
+    flex: 0 0 auto;
+}
+
+
+.course__index>i {
+    margin-right: 25px;
 }
 
 .course li {
@@ -227,7 +228,62 @@ padding: 25px 0;
     color: orange;
 }
 
+.text-sm {
+    font-size: 14px;
+    margin: 40px 0;
+}
 
+.text-center {
+    text-align: center;
+}
 
+.people {
+list-style: none;
+padding: 0;
+margin: 40px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
 
-  
+.person {
+    padding: 20px 60px;
+    text-align: center;
+    width: 33%;
+}
+
+.person--padding-sm {
+    padding: 20px;
+}
+
+.person__img {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.person__img--round {
+    border-radius: 50%;
+}
+
+.person__img img {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.person__name {
+font-size: 24px;
+font-weight: 700;
+}
+
+.person__text {
+font-size: 16px;
+}
+
